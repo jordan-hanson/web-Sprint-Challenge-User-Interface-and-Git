@@ -34,13 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    HTML is the basic user experience. When you got to a website you notice text, images, links, etc. HTML is able to box them together so you can put them in order and in position.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    a block display will always create a new line after the closing tag. Inline HTML will not.
 
 3. What are the 4 areas of the box model?
 
+    content edge, padding edge, border edge, margin edge
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    cross axis
+
 5. Explain why git is valuable to a team of developers.
+    It is able to track your work. You are able to save versions of your code and go back to it if it was deleted or a huge error occured. You have a back up place to go to. It also helps your management team see your code you push up for the current project and deadlines for functions.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -102,3 +111,5 @@ After finishing your required elements, you can push your work further. These go
 * [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
 * [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+
+    I used Flexbox in the about.HTML .about-bottom-content to flex and wrap my text containers. I also added width so it would keep the 2x2 boxed rows.
