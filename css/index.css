@@ -78,13 +78,25 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.about-top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 0px;
+    border-bottom: 1px dashed black;
+}
 
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
-
+.about-text-container {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -124,6 +136,39 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+/* .about-bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    justify-content: space-around;
+} */
+
+.about-bottom-content .text-container {
+    padding-right: 4%;
+    
+}
+
+.about-bottom-content .text-container:last-child {
+    padding-right: 0;
+}
+.about-bottom-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    /* border-bottom: 1px dashed black; */
+}
+
+.about-bottom-content .text-container {
+    width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    /* padding-top: 20px; */
+    border-bottom: 1px dashed black;
+  
+}
+.about-bottom-content .text-container img,h2,p,button{
+    margin-top: 3%;
 }
 
 footer {
@@ -168,4 +213,15 @@ footer nav a {
 }
 .logoImg {
     margin-right: 5%
+}
+.about-title {
+    margin-top: 3%;
+}
+button {
+    background-color: white;
+    border: 2pt solid black;
+    height: 25pt;
+    width: 95pt;
+    border-radius: 10px;
+    font-size: 12pt;
 }
